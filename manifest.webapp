@@ -1,0 +1,13 @@
+{
+  "name": "CheckList",
+  "description": "A Simple CheckList app",
+  "launch_path": "/dev/cl/index.html",
+  "icons": {
+  "138": "icon.png"
+},
+  "developer": {
+    "name": "Shreyas Sood",
+    "url": "http://shreyas.net.in/"
+  },
+  "default_locale": "en"
+}

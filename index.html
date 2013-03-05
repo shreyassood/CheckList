@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<meta name="viewport" content="width=device-width" />
+<title>CheckList</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="layouts.css">
+<style>
+</style>
+</head>
+<body>
+    <x-app>
+      <x-listview class="list" data-first="true" style="width: 100%; z-index: 101;"><header>
+          <div class="navitems left"><h1 style="margin-left:10px">Checklist</h1></div>
+          <div class="navitems right"><button onclick="clearall()">Clear All</button><button class="add" onclick="add()">+</button></div>
+        </header>
+        
+      <div class="contents">
+	  <ul class="_list" id="list">
+	  </ul>
+	  </div>
+	  </x-listview>
+
+    </x-app>
+
+    <script src="app.js" type="text/javascript"></script>
+  
+
+</body>
+
+</html>

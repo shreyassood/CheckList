@@ -1,0 +1,26 @@
+
+/* Tip: Use "@import" to add styles instead of adding <link>'s in your
+   HTML, and volo will inline it when building for production */
+
+/* @import "install-button.css"; */
+/* @import "layouts.css"; */
+
+
+/* Your styles here */
+.l{
+	float: left;
+}
+.r{
+	float: right;
+	padding-right:0.2em;
+}
+._list li p{margin:0px}
+._list li:last-child{border-bottom:1px solid grey}
+.title{padding-left:0.5em}
+body {
+    font-family:  Verdana, sans-serif;
+}
+
+h1 {
+    font: 2.2rem/4.8rem "Open Sans", Sans-serif;
+}
