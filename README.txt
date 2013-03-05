@@ -1,0 +1,1 @@
+A simple checklist app made primarily for Firefox OS
